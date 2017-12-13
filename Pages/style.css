@@ -3,9 +3,14 @@ div {
 	}
 
 div#header {
-  width: 400px;
-  margin-left: 400px;
-  background-color: red;
+  width: auto;
+	height: 100px;
+	margin-top: auto;
+  margin-left: 200px;
+	margin-right: 200px;
+	font-size: 40px;
+  background-color: white;
+	color: #0080FF
 }
 
 div#aside {
