@@ -1,0 +1,45 @@
+div {
+	text-align:center;
+	}
+
+div#header {
+  width: 400px;
+  margin-left: 400px;
+  background-color: red;
+}
+
+div#aside {
+  position: relative;
+  margin-left: 0px;
+  margin-right: auto;
+  width: 250px;
+  height: 450px;
+  background-color: red;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+div#aside2 {
+  position: relative;
+  margin-left: auto;
+  margin-right: 0px;
+  margin-top: -470px;
+  width: 250px;
+  height: 450px;
+  background-color: red;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+div#merci {
+  position: relative;
+  margin-top: -100px
+}

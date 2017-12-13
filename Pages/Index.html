@@ -1,11 +1,51 @@
 <!doctype html>
 <html lang="fr">
-  <href ../css/reset.css></href>
 <head>
   <meta charset="utf-8">
-  <title>Le Titre de la page</title>
+  <link rel="stylesheet" href="style.css" />
+  <title>FootStore</title>
+  <script type="text/javascript" src="archive.js"></script>
 </head>
 <body>
-jfjfhg
+<!-- Balises de base du site -->
+
+
+<div id="header">
+  <p> <h1> FootStore </h1> </p>
+</div id="header">
+<!-- Entete du site -->
+
+<div id="aside">
+  <p> -50% sur les maillots de l'EDF ! </p>
+  <img src="maillots.jpg" alt="maillots" />
+  <img src="match.jpg" alt="match" />
+  <p> Réservez vos places sur le site de la FFF </p>
+  <a  href="http://www.fff.fr">Féderation francaise de football </a>
+</div id="aside">
+<!-- pub de gauche -->
+
+<div id="aside2">
+  <p> Quelque soit ton club,</p>
+  <img src="clubs.jpg" alt="clubs" />
+  <a href="http://www.lfp.fr"> Abonne toi ! </a>
+<div id="sondage" >
+  <form ....>
+Comment trouvez vous nos prix ? <br/>
+<label>Très bons </label> : <input type="radio" value="Très bons" name="choix"><br/>
+<label>Bons      </label> : <input type="radio" value="Bons" name="choix"><br/>
+<label>Chèrs     </label> : <input type="radio" value="Chèrs" name="choix"><br/>
+<label>Très chèrs</label> : <input type="radio" value="Très chèrs" name="choix">
+</form>
+<div id="envoyer">
+ <input type="submit" value="Envoyer" onchange="cacher()"/>
+</div id="envoyer">
+
+<div style="visibility:hidden" id="merci">
+  <p> <h2> Merci ! </h2> </p>
+</div id="merci">
+
+</div id="sondage">
+
+
 </body>
 </html>
